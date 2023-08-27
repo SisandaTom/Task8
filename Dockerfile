@@ -1,4 +1,5 @@
 FROM pypy:latest
 WORKDIR /app
 COPY . /app
-CMD python hello.py
+CMD python inventory(2).py
+
